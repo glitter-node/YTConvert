@@ -1,6 +1,6 @@
 # YTConvert workspace
 
-- Keep all file writes inside `/volume1/glitter/ytconvert`.
+- Keep all file writes inside `/yourprojextRoot`.
 - Do not run Uvicorn, systemctl, or modify Nginx and system configuration.
 - Keep source comments and user-facing strings in English.
 - Run tests with the project virtual environment when available.
