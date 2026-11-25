@@ -1,0 +1,19 @@
+{
+  "meta": {"title": "YTConvert · 미디어 작업 공간"},
+  "header": {"service_online": "서비스 정상", "service_offline": "서비스 연결 끊김", "language": "언어", "theme": "테마", "theme_switch": "색상 테마 전환"},
+  "language": {"ko": "한국어", "en": "English", "ja": "日本語", "zh-CN": "简体中文"},
+  "hero": {"eyebrow": "미디어 작업 공간", "title_start": "원본에서", "title_emphasis": "쓸모 있는 결과까지.", "description": "동영상을 분석하고 출력 옵션을 살펴보며 모든 변환을 한곳에서 관리하세요."},
+  "steps": {"analyze": "분석", "choose": "선택", "convert": "변환"},
+  "source": {"eyebrow": "시작하기", "title": "원본 추가", "description": "YouTube URL을 입력해 원본 정보를 확인하세요. 변환에는 운영자가 허용한 네트워크와 미디어 처리 권한이 필요합니다.", "url_label": "동영상 URL", "url_placeholder": "https://www.youtube.com/watch?v=...", "analyze": "분석", "analyzing": "분석 중", "hint": "미디어 분석은 파일을 다운로드하지 않고 원본 정보만 요청합니다."},
+  "preview": {"eyebrow": "원본 정보", "title": "미디어 미리보기", "empty": "분석된 미디어 없음", "empty_description": "원본을 분석하면 세부 정보가 표시됩니다.", "open_source": "YouTube 페이지 열기 ↗", "streams": "원본 스트림", "streams_description": "YouTube에서 제공한 스트림입니다. 아래 출력 옵션에 따라 변환이나 음성 병합이 필요할 수 있습니다.", "untitled": "제목 없는 동영상", "channel_unavailable": "채널 정보 없음", "duration": "{value}초", "live": "라이브 스트림", "duration_unavailable": "재생 시간 없음"},
+  "output": {"eyebrow": "출력 설정", "title": "출력 형식 선택", "format": "형식", "quality": "품질", "select_source": "먼저 원본을 선택하세요", "video": "동영상", "audio": "음성", "unavailable": "사용 불가", "required_encoder": "필요한 인코더를 사용할 수 없습니다", "merge": "음성 병합", "settings_notice": "사용 가능한 설정은 원본에 따라 달라집니다. 출력 품질은 원본보다 높아질 수 없습니다.", "worker_notice": "변환을 사용할 수 없습니다: {reason}.", "worker_ready": "출력 품질은 원본을 초과할 수 없습니다. 변환에는 운영자가 허용한 네트워크와 미디어 처리 권한이 필요합니다.", "create": "변환 작업 시작", "rights": "이 미디어를 처리할 권한이 있음을 확인합니다", "metadata": "메타데이터 포함", "subtitles": "자막 포함 (사용 불가)"},
+  "progress": {"eyebrow": "실시간 상태", "title": "현재 작업", "empty": "진행 중인 작업 없음", "empty_description": "작업을 시작하면 진행률과 다운로드 정보가 표시됩니다.", "download": "다운로드 {value}%", "conversion": "변환 {value}%", "merging": "음성 병합 중", "probing": "미디어 검사 중", "processing": "변환 중", "validating": "출력 검증 중", "cancel": "작업 취소", "download_file": "파일 다운로드 ↓"},
+  "status": {"queued": "대기 중", "downloading": "다운로드 중", "probing": "미디어 검사 중", "processing": "변환 중", "completed": "완료", "failed": "실패", "cancelled": "취소됨", "unknown": "알 수 없음"},
+  "history": {"eyebrow": "활동 기록", "title": "최근 작업", "empty": "최근 작업 없음", "empty_description": "최근 변환 작업이 여기에 표시됩니다.", "id": "ID {value}"},
+  "messages": {"network_error": "네트워크 오류입니다. 연결을 확인하고 다시 시도하세요.", "request_failed": "요청에 실패했습니다 (상태 {status}).", "analysis_unavailable": "미디어 분석을 사용할 수 없습니다.", "service_unavailable": "서비스를 사용할 수 없습니다. 잠시 후 다시 시도하세요.", "enter_url": "동영상 URL을 입력하세요.", "analyzing_metadata": "원본 정보를 분석하는 중...", "loading_formats": "원본 형식을 불러오는 중...", "analyzed_unavailable": "미디어를 분석했습니다. 변환을 사용할 수 없습니다: {reason}.", "no_output": "이 원본에 사용할 수 있는 출력 형식이 없습니다.", "choose_output": "미디어를 분석했습니다. 출력 형식을 선택하세요. 변환에는 허용된 네트워크와 처리 권한이 필요합니다.", "format_unavailable": "미디어를 분석했습니다. {format}을(를) 사용할 수 없습니다: {reason}. 다른 출력을 선택하세요.", "invalid_update": "잘못된 작업 업데이트를 받았습니다.", "disconnected": "작업 업데이트 연결이 끊겼습니다. 다시 연결하는 중...", "cancelled": "작업이 취소되었습니다."},
+  "errors": {"network_restricted": "허용된 네트워크에서만 변환할 수 있습니다.", "validation_error": "입력값을 확인해 주세요.", "internal_error": "서버 내부 오류가 발생했습니다.", "default": "요청을 완료하지 못했습니다."},
+  "legal": {"notice": "변환 전에 저작권 권한, 플랫폼 약관 및 관련 법률을 확인하세요. 분석과 형식 제공은 처리 권한을 부여하지 않습니다."},
+  "footer": {"description": "명확하고 통제된 미디어 작업을 위한 도구입니다."},
+  "accessibility": {"workspace": "변환 작업 공간", "progress": "작업 진행률", "dismiss": "확인"},
+  "restricted": {"title": "제한된 서비스 접근", "description": "이 설치는 운영자가 허용한 호스트와 네트워크에서만 변환을 허용합니다. 미디어 분석은 다운로드 또는 변환 권한을 부여하지 않습니다."}
+}
